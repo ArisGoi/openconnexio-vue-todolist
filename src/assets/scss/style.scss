@@ -1,0 +1,23 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+// Common
+ul{list-style: none;}
+
+
+// Variables
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
